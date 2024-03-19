@@ -1,0 +1,36 @@
+/* || CSS RESET */
+
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* || GLOBAL PROPERTIES */
+
+:root {
+	--color-1: #312e2c;
+	--color-2: #7a284e;
+	--color-3: #854632;
+	--color-4: #5f564d;
+	--color-5: #f3e5d7;
+	--color-6: #e3ddd7;
+	--color-7: #fff7fb;
+	--color-8: #ffffff;
+
+	--ff-young-serif: "Young Serif", serif;
+	--ff-outfit: "Outfit", sans-serif;
+
+	--fw-1: 400;
+	--fw-2: 600;
+	--fw-3: 700;
+
+	--fs-1: 1rem;
+	--fs-2: 1.25rem;
+	--fs-3: 1.75rem;
+	--fs-4: 2.5rem;
+}
+
+/* || HEADER */
