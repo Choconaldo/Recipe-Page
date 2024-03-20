@@ -111,7 +111,6 @@ hr {
 
 .preparation ul {
 	padding-left: 24px;
-	list-style: var(--color-2);
 }
 
 .preparation li::marker {
@@ -142,3 +141,27 @@ hr {
 	line-height: 1;
 	color: var(--color-3);
 }
+
+.general-article ul,
+.general-article ol {
+	padding-left: 24px;
+}
+
+.general-article li::marker {
+	color: var(--color-3);
+	font-family: var(--ff-outfit);
+	font-size: var(--fs-1);
+	font-weight: var(--fw-3);
+}
+
+.generic-text {
+	margin-top: 8px;
+	padding-left: 16px;
+	font-family: var(--ff-outfit);
+	font-size: var(--fs-1);
+	font-weight: var(--fw-1);
+	line-height: 1.5;
+	color: var(--color-4);
+}
+
+/* || NUTRITION TABLE */
